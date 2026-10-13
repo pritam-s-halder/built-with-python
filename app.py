@@ -31,7 +31,7 @@ def delete_file(filename):
 
 def read_file(filename):
     try:
-        with open('keikaku.txt', 'r') as f:
+        with open('meguro.txt', 'r') as f:
             content = f.read()
             print(f"Content of '{filename} :\n{content}")
     except FileNotFoundError:
@@ -41,7 +41,7 @@ def read_file(filename):
 
 def edit_file(filename):
     try:
-        with open('keikaku.txt', 'w') as f:
+        with open('meguro.txt', 'w') as f:
             content = input('Enter data to add = ')
             f.write(content + "\n")
             print('Content added to {filename} successfully!')
