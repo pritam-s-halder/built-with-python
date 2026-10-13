@@ -56,7 +56,7 @@ book = Book("Atomic Habits", "James Clear")
 book.check_out()
 book.check_out()   # should refuse
 
-ebook = EBook("Deep Work", "Cal Newport")
+ebook = EBook("Hooked", "Asako Yuzuki")
 ebook.check_out()
 ebook.check_out()   # should succeed anyway
 ebook.check_out()   # should succeed anyway
