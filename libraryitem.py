@@ -64,3 +64,9 @@ audiobook.check_out()
 
 book = Book("Laws of Human Nature", "Robert Grean")
 book.check_out()
+
+ebook = EBook("Butter", "Asako Yuzuki")
+ebook.check_out()
+
+audiobook = AudioBook("The convenience store near sea", "Sayaka Murata", 240)
+audiobook.check_out()
