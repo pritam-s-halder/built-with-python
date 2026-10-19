@@ -1,3 +1,4 @@
+#O(log_n)
 def find_name(names, target):
     left = 0
     right = len(names) - 1
@@ -47,3 +48,26 @@ if result:
     print('Found at index', result)
 else:
     print('Not Found!')
+
+#O(1)- flat, best
+marks = [88, 72, 87, 93, 92, 63]
+first_m = marks[0]
+print(first_m)
+
+#O(n^2)
+
+def find_duplicates(numbers):
+    for i in range(len(numbers)):
+        for j in range(len(numbers)):
+            if i != j and numbers[i] == numbers[j]:
+                return True
+    return False
+
+numbers = [10, 22, 31, 22, 48]
+
+if result:
+    print('Duplicate Found')
+else:
+    print('not Found')
+
+
