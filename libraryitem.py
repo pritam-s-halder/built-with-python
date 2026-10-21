@@ -70,3 +70,6 @@ ebook.check_out()
 
 audiobook = AudioBook("The convenience store near sea", "Sayaka Murata", 240)
 audiobook.check_out()
+
+book = Book("The Almanack of Naval Ravikant", "Naval Ravikant")
+book.check_out()
