@@ -5,7 +5,7 @@ account = {
     "type": "savings account"
 }
 
-MAX_PIN_ATTEMPTS = 3
+MAX_PIN_ATTEMPTS = 4
 
 def read_amount():
     raw = input("Enter your amount: ")
