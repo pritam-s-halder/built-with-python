@@ -65,7 +65,7 @@ class PremiumAccount(CheckingAccount):
 
 class SeniorAccount(SavingsAccount):
     def withdraw(self, amount):
-        if amount > self._balance:
+        if amount > self._balance :
             print('Enter a valid amount, insufficient funds!')
         else:
             self._balance -= amount
